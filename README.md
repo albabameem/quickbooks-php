@@ -57,13 +57,10 @@ accessToken="enter anything for now"
 refreshToken="enter anything for now"
 ```
 
-### Add your callback URL to your company [here](https://developer.intuit.com/app/developer/qbo/docs/develop/authentication-and-authorization/set-redirect-uri)
-
-* Add the relevant routes from web.php file or to test run, use web.php file as it is.
-
 ### Run initial setup
-* Make sure to do this in order.
-* Need to be done only once.
+* Add your callback URL to your company [here](https://developer.intuit.com/app/developer/qbo/docs/develop/authentication-and-authorization/set-redirect-uri)
+* Add the relevant routes from web.php file or to test run, use web.php file as it is.
+* Initiate the refreshToken (needs to be done only once)
 * Visit `https://yourhostlink.com/init`
 * Login to connect your company app then select your company and press next.
 * You should see `Success!` message if your token was successfully generated.
