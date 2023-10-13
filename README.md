@@ -54,9 +54,9 @@ accessToken="enter anything for now"
 refreshToken="enter anything for now"
 ```
 
-* Add your callback URL to your company [here](https://developer.intuit.com/app/developer/qbo/docs/develop/authentication-and-authorization/set-redirect-uri)
+### Add your callback URL to your company [here](https://developer.intuit.com/app/developer/qbo/docs/develop/authentication-and-authorization/set-redirect-uri)
 
-### Add the relevant routes from web.php file or to test run, use web.php file as it is.
+* Add the relevant routes from web.php file or to test run, use web.php file as it is.
 
 ### Run initial setup
 * Make sure to do this in order.
