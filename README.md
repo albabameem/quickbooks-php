@@ -1,6 +1,9 @@
 # Keep your Quickbooks OAuth token alive forever.
 
-> Note: This is a quick and simple solution just to give you an idea how this can be achieved. This repo was created within a few hours so don't except the best coding practices.
+* Note: This is a quick and simple solution just to give you an idea how this can be achieved. This repo was created within a few hours so don't except the best coding practices.
+* The token is kept alive by using cron jobs to refresh the token internally.
+* The refresh token and access token is stored in the `.env` file.
+* Instead of using .env file and writing to it, you may use your database or any other storage means.
 
 ## Requirements
 
